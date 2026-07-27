@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tilna Burinagar</title>
+  <meta name="description" content="Our village — population, school, markets, temple, and the river and land around us." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏞️</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HOW TO EDIT THIS SITE (you only — visitors cannot change it)
+       - Change any wording by editing the text between the tags.
+       - To add a photo: put the image file in the /images folder,
+         then inside a <div class="photo"> add:  <img src="images/NAME.jpg" alt="..." />
+         (an example line is left commented in each photo box below).
+       ============================================================ -->
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav">
+    <span class="brand">Our Village</span>
+    <!-- <div class="owner-info">
+        <strong>Site Owner: Dhananjay Sarkar (M.Tech, M.Sc, B.Sc) </strong> -->
+    <div class="nav-links">
+      <strong>Site Owner: Dhananjay Sarkar (M.Tech, M.Sc, B.Sc) </strong>
+      <a href="#glance">At a Glance</a>
+      <a href="#school">School</a>
+      <a href="#markets">Markets</a>
+      <a href="#festivals">Festivals</a>
+      <div class="nav-item has-mega">
+        <!-- <a href="#service" class="nav-trigger">Services ▾</a> -->
+        <div class="mega">
+          <div class="mega-col">
+            <p class="mega-title">Car Service</p>
+            <a href="#svc-toto">Auto / Toto</a>
+            <a href="#svc-taxi">Taxi</a>
+            <a href="#svc-tractor">Tractor</a>
+          </div>
+          <div class="mega-col">
+            <p class="mega-title">Labour Service</p>
+            <a href="#svc-electrician">Electrician</a>
+            <a href="#svc-plumber">Plumber</a>
+            <a href="#svc-mason">Mason</a>
+            <a href="#svc-farm">Farm Labour</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item has-mega">
+        <a href="#localbody" class="nav-trigger">Local Body ▾</a>
+        <div class="mega one">
+          <div class="mega-col">
+            <p class="mega-title">Local Body</p>
+            <a href="#lb-panchayat">Panchayat</a>
+            <a href="#lb-postoffice">Post Office</a>
+            <a href="#lb-health">Health Centre</a>
+          </div>
+        </div>
+      </div>
+      <a href="#emergency-contact">Emergency Contact</a>
+      <a href="#life">Village Life</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button" title="Switch light / dark" aria-label="Switch light or dark theme">◐</button>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <!-- Cover photos — they fade slowly from one to the next. -->
+    <div class="hero-slides">
+      <img class="hero-photo active" src="images/cover.jpeg" alt="View of our village" />
+      <img class="hero-photo" src="images/cover-2.jpeg" alt="" />
+      <!-- Add more cover photos: put files in /images, then remove the surrounding <!-- and -->
+      
+      <!-- <img class="hero-photo" src="images/cover-3.jpeg" alt="" /> -->
+      -->
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">District, State · By the river</p>
+      <h1>তিলনা বুড়িনগর গ্রাম</h1>
+      <p class="tagline">A small village where the river runs clear, the fields stay green, and everyone knows your name.</p>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">↓</div>
+  </header>
+
+  <main>
+    <!-- ============ AT A GLANCE ============ -->
+    <section id="glance">
+      <div class="wrap reveal">
+        <div class="sec-head">
+          <p class="eyebrow">At a Glance</p>
+          <h2>Our village in numbers</h2>
+          <p>A quick look at who we are — the people, the homes, and the land we share.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num">2,450</div><div class="lbl">Total population</div></div>
+          <div class="stat"><div class="num">520</div><div class="lbl">Households</div></div>
+          <div class="stat"><div class="num">1,230</div><div class="lbl">Men</div></div>
+          <div class="stat"><div class="num">1,220</div><div class="lbl">Women</div></div>
+          <div class="stat"><div class="num">78%</div><div class="lbl">Literacy</div></div>
+          <div class="stat"><div class="num">640 ha</div><div class="lbl">Total area</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SCHOOL ============ -->
+    <section id="school">
+      <div class="wrap reveal">
+        <div class="media">
+          <div>
+            <p class="eyebrow">The School</p>
+            <h2>Where our children learn</h2>
+            <p style="color:var(--ink-soft);margin-top:.7rem">Our primary school has served the village for generations — a short walk for every child, with dedicated teachers and a green playground.</p>
+            <ul class="facts">
+              <li><span class="k">School name</span><span class="v">তিলনা বুড়িনগর প্রথমিক বিদ্যালয়</span></li>
+              <li><span class="k">Established</span><span class="v">1961</span></li>
+              <li><span class="k">Classes</span><span class="v">1 to 5</span></li>
+              <li><span class="k">Students</span><span class="v">100</span></li>
+              <li><span class="k">Teachers</span><span class="v">5</span></li>
+              <li><span class="k">Timing</span><span class="v">11:00 AM – 3:30 PM</span></li>
+            </ul>
+          </div>
+          <div class="gallery-strip auto" aria-label="School photos">
+            <img src="images/school.jpeg" alt="Our primary school" />
+            <img src="images/school-3.jpg" alt="School playground" />
+            <!-- Add more school photos: put files in /images, then remove the surrounding <!-- and -->
+            
+            <!-- <img src="images/school-3.jpeg" alt="School classroom" /> -->
+            -->
+            <span class="photo-empty">Photos of the school</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARKETS ============ -->
+    <section id="markets">
+      <div class="wrap reveal">
+        <div class="sec-head">
+          <p class="eyebrow">The Markets</p>
+          <h2>Where the village gathers</h2>
+          <p>Two markets keep the village supplied — one a lively weekly gathering, the other open every day for daily needs.</p>
+        </div>
+        <div class="market-grid">
+          <!-- Market 1 -->
+          <article class="market">
+            <div class="gallery-strip auto" aria-label="Tilna Haat photos">
+              <img src="images/market-haat.jpeg" alt="Tilna Haat" />
+              <img src="images/market-haat-2.jpeg" alt="Haat crowd" />
+              <!-- <img src="images/market-haat-2.jpeg" alt="Haat crowd" /> -->
+              <!-- Add more Haat photos side by side — copy a line and change the file name:
+              <img src="images/market-haat-2.jpeg" alt="Haat crowd" />
+              <img src="images/market-haat-3.jpeg" alt="Haat stalls" /> -->
+              <span class="photo-empty">Photos of the Haat</span>
+            </div>
+            <div class="market-body">
+              <h3>তিলনা হাট</h3>
+              <span class="when">Sunday &amp; Wednesday &amp; Friday</span>
+              <p class="hours"><span>Open</span> 3:00 PM – 7:00 PM</p>
+              <p style="margin-top:12px;color:var(--ink-soft);font-size:.92rem">The big weekly market where farmers from nearby villages bring fresh produce, livestock, and handmade goods.</p>
+              <div class="chips">
+                <span class="chip">Vegetables</span>
+                <span class="chip">Fruits</span>
+                <span class="chip">Grains</span>
+                <span class="chip">Livestock</span>
+                <span class="chip">Clothes</span>
+              </div>
+            </div>
+          </article>
+          <!-- Market 2 -->
+          <article class="market">
+            <div class="gallery-strip" aria-label="Main Bazaar photos">
+              <!-- Add Main Bazaar photos side by side — put files in /images and un-comment / copy these:
+              <img src="images/market-bazaar.jpeg" alt="Main bazaar" />
+              <img src="images/market-bazaar-2.jpeg" alt="Bazaar shops" /> -->
+              <span class="photo-empty">Photos of the market</span>
+            </div>
+            <div class="market-body">
+              <h3>ব্যস্ত মোর</h3>
+              <span class="when">Open daily</span>
+              <p class="hours"><span>Open</span> 6:00 AM – 8:00 PM</p>
+              <p style="margin-top:12px;color:var(--ink-soft);font-size:.92rem">The everyday market in the village centre — grocery shops, a tea stall, medicines, and daily essentials.</p>
+              <div class="chips">
+                <span class="chip">Groceries</span>
+                <span class="chip">Medicines</span>
+                <span class="chip">Stationery</span>
+                <span class="chip">Tea stall</span>
+                <span class="chip">Hardware</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ---- Haat committee: festivals & notices ---- -->
+        <div class="subsection reveal" id="festivals">
+          <div class="sec-head">
+            <p class="eyebrow">Tilna Haat Committee</p>
+            <h2>Festivals &amp; Celebrations</h2>
+            <p>Every year the Haat committee organises the village festivals — bringing everyone together for worship, fairs, cultural programmes, and food.</p>
+          </div>
+
+          <div class="life-grid">
+            <article class="card">
+              <div class="photo">
+                <!-- <img src="images/durga-puja.jpg" alt="Durga Puja" /> -->
+                <span class="photo-empty">Photo of Durga Puja</span>
+              </div>
+              <div class="card-body">
+                <h3>Durga Puja</h3>
+                <span class="festival-when">Autumn · Ashwin</span>
+                <p>The biggest festival of the year — a grand pandal, cultural programmes, and prasad for all.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="photo">
+                <!-- <img src="images/ras-purnima.jpg" alt="Ras Purnima" /> -->
+                <span class="photo-empty">Photo of Ras Purnima</span>
+              </div>
+              <div class="card-body">
+                <h3>Ras Purnima</h3>
+                <span class="festival-when">Kartik · full moon</span>
+                <p>A joyful full-moon festival with a colourful fair, sweets, and gatherings by the temple.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="photo">
+                <!-- <img src="images/festival-3.jpg" alt="" /> -->
+                <span class="photo-empty">Photo</span>
+              </div>
+              <div class="card-body">
+                <h3>Add another festival</h3>
+                <span class="festival-when">Date</span>
+                <p>Copy this card to add more events the committee organises through the year.</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Notice board — committee members edit these lines -->
+          <div class="notice-board">
+            <h3>📢 Notices &amp; announcements</h3>
+            <ul class="notice-list">
+              <li><span class="notice-date">Notice</span> Durga Puja committee meeting — all members are requested to attend.</li>
+              <li><span class="notice-date">Notice</span> Donations for the Ras Purnima fair are now being collected. Please contact the committee.</li>
+              <li><span class="notice-date">Notice</span> Add any village or Haat announcement here.</li>
+            </ul>
+            <p class="notice-hint">Committee members: edit the lines above to post a new notice, then save and push.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    ============ SERVICES (hidden on the home page — opens as a popup) ============ -->
+    <div class="modal" id="service-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-label="Village Services">
+        <div class="modal-head">
+          <strong>Village Services</strong>
+          <button class="modal-close" type="button" data-close aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body" id="service">
+        <div class="sec-head">
+          <p class="eyebrow">Village Services</p>
+          <h2>One village, many services</h2>
+          <p>Need a ride, a repair, or help with a government form? Find a local service below and contact the provider directly — the whole village, under one roof.</p>
+        </div>
+
+        <div class="service-legend">
+          <span class="leg"><span class="dot free"></span> <b>Free</b> — government &amp; public information, open to everyone</span>
+          <span class="leg"><span class="dot paid"></span> <b>Paid</b> — private services from local providers</span>
+        </div>
+
+        <!-- The service list, provider lists, and availability calendars are all
+             built automatically from js/providers.js — edit that file to change
+             services, add providers (person1, person2…), rates, and booked dates. -->
+        <div id="service-views"></div>
+
+        <!-- Provider sign-up note -->
+        <div class="notice-board" style="border-left-color:var(--green);margin-top:28px">
+          <h3>🏪 Are you a local service provider?</h3>
+          <p style="color:var(--ink-soft);margin-top:6px">Shopkeepers, drivers, electricians, tutors — anyone from the village can be listed here so neighbours can find you. Contact the village committee to add your service.</p>
+        </div>
+        </div><!-- /modal-body -->
+      </div><!-- /modal-panel -->
+    </div><!-- /modal -->
+    <!-- Services popup ends
+
+    <!-- ============ LOCAL BODY (popup, built like Services) ============ -->
+    <div class="modal" id="localbody-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-label="Local Body">
+        <div class="modal-head">
+          <strong>Local Body</strong>
+          <button class="modal-close" type="button" data-close aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="sec-head">
+            <p class="eyebrow">Local Body</p>
+            <h2>Offices that serve our village</h2>
+            <p>Panchayat, post office and health centre — with timings, address and contact. Free public information.</p>
+          </div>
+          <!-- Built automatically from js/localbody-data.js — edit that file. -->
+          <div id="localbody-views"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Local Body popup ends -->
+
+
+    <!-- ============ EMERGENCY CONTACT ============ -->
+    <section id="emergency-contact">
+      <div class="wrap reveal">
+        <div class="sec-head">
+          <p class="eyebrow">Emergency Contact</p>
+          <h2>Important numbers</h2>
+          <p>Free for everyone, any time. Tap a number to call. National helplines are filled in — replace the “—” ones with your local numbers.</p>
+        </div>
+        <div class="emerg-grid">
+          <a class="emerg-card sos" href="tel:112"><span class="emerg-ico">🆘</span><span class="emerg-name">Emergency (All-in-one)</span><span class="emerg-num">112</span></a>
+          <a class="emerg-card sos" href="tel:100"><span class="emerg-ico">👮</span><span class="emerg-name">Police</span><span class="emerg-num">100</span></a>
+          <a class="emerg-card sos" href="tel:102"><span class="emerg-ico">🚑</span><span class="emerg-name">Ambulance</span><span class="emerg-num">102</span></a>
+          <a class="emerg-card sos" href="tel:101"><span class="emerg-ico">🚒</span><span class="emerg-name">Fire</span><span class="emerg-num">101</span></a>
+          <a class="emerg-card" href="tel:1091"><span class="emerg-ico">👩</span><span class="emerg-name">Women Helpline</span><span class="emerg-num">1091</span></a>
+          <a class="emerg-card" href="tel:1098"><span class="emerg-ico">🧒</span><span class="emerg-name">Childline</span><span class="emerg-num">1098</span></a>
+          <a class="emerg-card" href="tel:1912"><span class="emerg-ico">💡</span><span class="emerg-name">Electricity Complaint</span><span class="emerg-num">1912</span></a>
+          <a class="emerg-card" href="tel:"><span class="emerg-ico">🏛️</span><span class="emerg-name">Village Panchayat</span><span class="emerg-num">—</span></a>
+          <a class="emerg-card" href="tel:"><span class="emerg-ico">🏥</span><span class="emerg-name">Nearest Hospital</span><span class="emerg-num">—</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VILLAGE LIFE ============ -->
+    <!-- Add as many cards as you like — copy one <article class="card"> ... </article> block. -->
+    <section id="life">
+      <div class="wrap reveal">
+        <div class="sec-head">
+          <p class="eyebrow">Village Life</p>
+          <h2>People, festivals & everyday life</h2>
+          <p>Add anything you are proud of — festivals, the health centre, panchayat notices, sports, or people who make the village special.</p>
+        </div>
+        <div class="life-grid">
+          <article class="card">
+            <div class="photo"><!-- <img src="images/life-1.jpg" alt="" /> --><span class="photo-empty">Photo</span></div>
+            <div class="card-body">
+              <h3>Harvest festival</h3>
+              <p>Every year the whole village gathers to celebrate the harvest with food, music, and dance.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="photo"><!-- <img src="images/life-2.jpg" alt="" /> --><span class="photo-empty">Photo</span></div>
+            <div class="card-body">
+              <h3>Health centre</h3>
+              <p>The sub-centre provides basic care and monthly visits from a doctor. Open 9 AM – 1 PM.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="photo"><!-- <img src="images/life-3.jpg" alt="" /> --><span class="photo-empty">Photo</span></div>
+            <div class="card-body">
+              <h3>Panchayat</h3>
+              <p>Our gram panchayat meets on the first Sunday of every month. All are welcome to attend.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Made with love for our village.</span>
+      <!-- <span>Site Owner: <strong>Dhananjay Sarkar (M.Tech, M.Sc, B.Sc)</strong></span> -->
+      <span>Contact: <strong>dhananjaymath7@gmail.com</strong></span>
+    </div>
+  </footer>
+
+  <script src="js/providers.js"></script>
+  <script src="js/services-ui.js"></script>
+  <script src="js/localbody-data.js"></script>
+  <script src="js/localbody.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
